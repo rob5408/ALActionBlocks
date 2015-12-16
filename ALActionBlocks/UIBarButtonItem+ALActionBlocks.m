@@ -28,7 +28,7 @@
 }
 
 
-- (instancetype)initWithImage:(UIImage *)image style:(UIBarButtonItemStyle)style block:(ALActionBlock)actionBlock {
+- (instancetype)initWithImage:(nullable UIImage *)image style:(UIBarButtonItemStyle)style block:(ALActionBlock)actionBlock {
     UIBarButtonItem *barButtonItem = [[[self class] alloc] initWithImage:image style:style target:nil action:nil];
     [barButtonItem setBlock:actionBlock];
     return barButtonItem;

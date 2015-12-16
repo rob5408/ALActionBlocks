@@ -14,7 +14,7 @@
 
 - (instancetype)initWithBarButtonSystemItem:(UIBarButtonSystemItem)systemItem block:(ALActionBlock)actionBlock;
 - (instancetype)initWithImage:(UIImage *)image landscapeImagePhone:(UIImage *)landscapeImagePhone style:(UIBarButtonItemStyle)style block:(ALActionBlock)actionBlock;
-- (instancetype)initWithImage:(UIImage *)image style:(UIBarButtonItemStyle)style block:(ALActionBlock)actionBlock;
+- (instancetype)initWithImage:(nullable UIImage *)image style:(UIBarButtonItemStyle)style block:(ALActionBlock)actionBlock;
 - (instancetype)initWithTitle:(NSString *)title style:(UIBarButtonItemStyle)style block:(ALActionBlock)actionBlock;
 
 - (void)setBlock:(ALActionBlock)actionBlock;
